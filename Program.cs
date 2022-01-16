@@ -10,7 +10,7 @@ namespace picacomic
         {            
             if (args.Length != 2)
             {
-                throw new Exception("请查看文档设置账号密码");
+                throw new Exception("请查看文档设置账号和密码");
             }
             string username = args[0];
             string password = args[1];
