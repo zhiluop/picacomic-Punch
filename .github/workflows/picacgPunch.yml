@@ -37,9 +37,10 @@ jobs:
       run: dotnet build -c Release
       
     - name: run
-      env:
+      env: 
         username: ${{secrets.USERNAME}}
         password: ${{secrets.PASSWORD}}
       run: dotnet run -- ${username} ${password}
+     
      
         
